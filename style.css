@@ -1,0 +1,170 @@
+body{
+margin: 0;
+}
+.contaner{
+    width: 1536px;
+    margin: 0 auto;
+}
+a,span{
+    text-decoration: none;
+    font-family: Roboto, Arial, PingFangSC-Regular, "Microsoft YaHei", sans-serif;
+    color: rgb(215, 215, 215);
+}
+ul,ul li{
+    list-style: none;
+}
+header{
+    
+    background-image: linear-gradient(93.96deg, rgb(85, 147, 255) 0.76%, rgb(232, 104, 255) 100.57%);
+    /* background-image: url(img/back-header.jpg); */
+    height: 750px;
+}
+
+
+    /* -----About part nav----- */
+nav{
+    background-color: rgba(0, 0, 0, 0.444);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-size: 14px;
+}
+
+/* ------About part left----- */
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+nav .left img{
+    width: 120px;
+    position: absolute;
+    top: 15px;
+}
+nav .left ul{
+    margin-left:100px ;
+}
+nav .left ul li>ul{
+    position: absolute;
+    top: 60px;
+    right: 61%;
+    background-color: rgb(35, 32, 57);
+    visibility: hidden;
+     direction: rtl;
+     transition:all .1s;
+     
+}
+nav .left ul li:hover ul{
+    visibility: visible;
+}
+
+nav .left .secend-left-menu{
+    position: absolute;
+    right: 56%;
+}
+
+nav .left ul li>ul li{
+    display: block;
+  
+}
+nav .left ul .CEX-DEX{
+    display: inline-block;
+    border: 1px solid rgb(89, 89, 89);
+    border-radius: 5px;
+    padding: 5px 1px;
+}
+
+nav .left ul .CEX-DEX a{
+    margin: 5px;
+}
+nav .left ul .CEX-DEX a:first-of-type{
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgba(215, 215, 215, 0.249);
+}
+/* ---------------------- */
+
+/* ---About part right---- */
+
+nav .right ul span{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+nav .right ul  button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+background-image: linear-gradient(93.96deg, rgb(255, 0, 183) 0.76%, rgb(66, 80, 244) 100.57%);
+}
+/* end of nav (left-right) */
+
+
+/* start of middle header (border part) */
+.middle-header{
+margin-top:7% ;
+justify-content: space-between;
+}
+
+.middle-header .items{
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(93.96deg, rgb(85, 99, 255) 0.76%, rgb(147, 104, 255) 100.57%);
+    padding: 10px 0;
+    width: 600px;
+    margin: 0 auto;
+}
+.middle-header .new-button{
+    border: none;
+    border-radius:20px;
+    padding: 4px 6px;
+    background-color: burlywood;
+    margin-left: 20px;
+}
+.middle-header .new-button a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.middle-header .items .text{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+/* end of middle header (border part) */
+
+
+/* start of text under the border part  */
+
+.middle-header-p2{
+       text-align: center; 
+        
+        margin-top: 30px;
+}
+.middle-header-p2 .text-1{
+
+    font-size: 55px;
+    font-weight: bold;
+    margin-top:10px ;
+}
+
+.circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(93.96deg, rgb(85, 99, 255) 0.76%, rgb(147, 104, 255) 100.57%);
+     border-radius: 50px;
+}
+
+/* (its a span)*/
+.middle-header-p2 span:last-of-type{
+    margin-top: 50px;
+    font-size: 20px;
+    opacity: .7;
+    display: block;
+
+}
