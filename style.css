@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
 body{
 margin: 0;
 }
@@ -5,7 +9,7 @@ margin: 0;
     width: 1536px;
     margin: 0 auto;
 }
-a,span{
+a,span,p{
     text-decoration: none;
     font-family: Roboto, Arial, PingFangSC-Regular, "Microsoft YaHei", sans-serif;
     color: rgb(215, 215, 215);
@@ -17,7 +21,8 @@ header{
     
     background-image: linear-gradient(93.96deg, rgb(85, 147, 255) 0.76%, rgb(232, 104, 255) 100.57%);
     /* background-image: url(img/back-header.jpg); */
-    height: 750px;
+    height: 870px;
+    margin-bottom:-16px;
 }
 
 
@@ -38,6 +43,10 @@ nav a{
 nav ul li{
     display: inline-block;
     margin: 10px;
+}
+
+nav .left{
+    margin-left: 40px;
 }
 nav .left img{
     width: 120px;
@@ -118,6 +127,13 @@ justify-content: space-between;
     width: 600px;
     margin: 0 auto;
 }
+.middle-header #right-arrow{
+    padding: 5px;
+    transform: rotate(318deg);
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    margin-left: 10px;
+}
 .middle-header .new-button{
     border: none;
     border-radius:20px;
@@ -166,5 +182,125 @@ justify-content: space-between;
     font-size: 20px;
     opacity: .7;
     display: block;
+}
+.middle-header-p2 .last-btn-header{
+ margin: 0 auto;
+}
+.middle-header-p2 .last-btn-header a{
+    background-image: linear-gradient(90deg, rgb(224, 95, 187) -28.61%, rgb(66, 80, 244) 100%);
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+/* ---------------- */
+#coin-price{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+#coin-price img{
+    width: 30px;
+}
+#coin-price span{
+    font-size: 20px;
 
+}
+#coin-price .coin-part>span{
+    font-weight: bold;
+    margin-left: 20px;
+}
+#coin-price .coin-part> span>span{
+color:#584CEA ;
+margin-left: 10px;
+}
+/* ------------ */
+
+header .last-border-header{
+    width: 1300px;
+    
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    height: 88px;
+    justify-content: space-between;
+    align-items: center;
+   border: 1px solid rgba(211, 211, 211, 0.603);
+}
+header .last-border-header .last-border-options{
+    padding:33px 30px;
+    margin: 0 auto;
+}
+header .last-border-header #multicolor-part{
+    transform:skew(-10deg);
+    border: 2px solid rgba(211, 211, 211, 0.668);
+    background-image: linear-gradient(93.96deg, rgba(224, 95, 187, 0.8) 0.76%, rgba(66, 80, 244, 0.8) 100.57%);
+    padding: 34px 80px;
+}
+/* option-3 to left */
+header .last-border-header #option-3{
+    border-right: 1px solid rgb(211, 211, 211);
+    transform: skew(-10deg);
+}
+header .last-border-header .right-arrow-border{
+    position: absolute;
+    top: 8px;
+    margin-left: 8px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    display: inline-block;
+}
+header .last-border-header .last-border-options a{
+    position: relative;
+}
+/* --end of header >>>alah barakatlah */
+
+main{
+    /* background-color: #000; */
+    height: 750px;
+    width: 1536px;
+    position: relative;
+    background-image: url(img/apx-desktop-bg.svg);
+}
+main #main-texts{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+main #main-texts p,#a-main-text{
+text-align: center;
+}
+main #main-texts p:first-of-type{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:60px ;
+}
+main #main-texts p{
+    font-size: 20px;
+}
+/* ------------------- */
+main #main-texts #a-main-text a:first-of-type{
+    color: #584CEA;
+}
+main #main-texts #a-main-text a:last-of-type{
+    margin-left: 10px;
+}
+#a-main-text .notice-mark{
+    border:1px solid #fff;
+    padding: 5px;
+    border-radius: 100%;
+    display: inline-block;
+    /* font-size: 3px; */
+}
+.notice-mark>div{
+    border:1px solid #fff;
+    border-width: 2px 1px 2px 1px;
+}
+#part-of-bg{
+    /* height: 100%;
+    width: 100%; */
 }
