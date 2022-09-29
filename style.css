@@ -4,6 +4,7 @@
 }
 body{
 margin: 0;
+/* background-color: #171822; */
 }
 .contaner{
     width: 1536px;
@@ -24,8 +25,6 @@ header{
     height: 870px;
     margin-bottom:-16px;
 }
-
-
     /* -----About part nav----- */
 nav{
     background-color: rgba(0, 0, 0, 0.444);
@@ -259,12 +258,13 @@ header .last-border-header .last-border-options a{
 }
 /* --end of header >>>alah barakatlah */
 
-main{
-    /* background-color: #000; */
+main #main-part1{
+    background-color: #171822;
     height: 750px;
     width: 1536px;
     position: relative;
-    background-image: url(img/apx-desktop-bg.svg);
+    background-image: url(img/back-header.jpg);
+    z-index: 1;
 }
 main #main-texts{
     position: absolute;
@@ -300,7 +300,43 @@ main #main-texts #a-main-text a:last-of-type{
     border:1px solid #fff;
     border-width: 2px 1px 2px 1px;
 }
-#part-of-bg{
-    /* height: 100%;
-    width: 100%; */
+/* ----------------- */
+#coin-img{
+position: absolute;
+bottom: 200px;
+left: 710px;
+}
+#coin-img span{
+position: absolute;
+bottom: 200px;
+left: 710px;
+}
+#coin-img img{
+width: 130px;
+}
+#main-span{
+position: absolute;
+bottom: 150px;
+left: 670px;
+}
+#main-span span{
+    font-size: 20px;
+    font-weight: bold;
+}
+#main-btn a{
+ background-image: linear-gradient(93.96deg, rgb(85, 147, 255) 0.76%, rgb(232, 104, 255) 100.57%);
+ border-radius: 5px;
+ padding: 15px 60px;
+}
+#main-btn{
+position: absolute;
+bottom: 100px;
+left: 660px;
+}
+/* ---------------- */
+#main-part2{
+ width: 1536px;
+ height: 750px;
+ background-color: #171822;
+
 }
