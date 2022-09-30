@@ -10,7 +10,7 @@ margin: 0;
     width: 1536px;
     margin: 0 auto;
 }
-a,span,p{
+a,span,p,h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     font-family: Roboto, Arial, PingFangSC-Regular, "Microsoft YaHei", sans-serif;
     color: rgb(215, 215, 215);
@@ -260,11 +260,11 @@ header .last-border-header .last-border-options a{
 
 main #main-part1{
     background-color: #171822;
-    height: 750px;
+    height: 660px;
     width: 1536px;
     position: relative;
-    background-image: url(img/back-header.jpg);
-    z-index: 1;
+    background-image: url(img/main\ background.png);
+    background-repeat: no-repeat;
 }
 main #main-texts{
     position: absolute;
@@ -303,20 +303,20 @@ main #main-texts #a-main-text a:last-of-type{
 /* ----------------- */
 #coin-img{
 position: absolute;
-bottom: 200px;
+bottom: 150px;
 left: 710px;
 }
-#coin-img span{
+/* #coin-img span{
 position: absolute;
-bottom: 200px;
-left: 710px;
-}
+bottom: 0px;
+left: 72px;
+} */
 #coin-img img{
 width: 130px;
 }
 #main-span{
 position: absolute;
-bottom: 150px;
+bottom: 70px;
 left: 670px;
 }
 #main-span span{
@@ -330,13 +330,93 @@ left: 670px;
 }
 #main-btn{
 position: absolute;
-bottom: 100px;
-left: 660px;
+bottom: 14px;
+left: 670px;
 }
 /* ---------------- */
 #main-part2{
  width: 1536px;
- height: 750px;
+ height: 3137.81px;
  background-color: #171822;
 
+}
+#main-part2 #apx-token{
+text-align: center;
+padding-top: 100px;
+position: relative;
+padding-bottom: 0;
+}
+#main-part2 #apx-token img{
+    margin: 0 auto;
+    float: none;
+    width: 600px;
+    display: block;
+}
+#main-part2 #apx-token span{
+    font-size: 27px;
+    font-weight: bold;
+    position: absolute;
+    right: 30.5%;
+    top: 80%;
+}
+/* -------------------- */
+#main-part2 #svg-option{
+    padding-top:50px;
+    margin: 0 auto;   
+}
+
+#imgs{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%; 
+
+}
+#imgs-bg{
+    margin: 0 auto;
+   display: flex;
+   width: 80%;
+   height: 60px;
+   justify-content: space-between;
+   margin-top:-50px;
+}
+#imgs-bg .BG{
+  text-align: center;
+}
+#imgs-bg .BG h3{
+margin-top: -60px;
+}
+/* ---------------------- */
+
+#main-ads-part{
+    padding-top: 300px;
+    width: 80%;
+    margin: 0 auto;
+    /* padding-left: 100px; */
+}
+#main-ads-part span:first-of-type{
+    /* opacity: .6; */
+}
+/* --------------- */
+#main-ads-part #Ads-border{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+}
+#main-ads-part #Ads-border .part-one,.part-two{
+    width: 49%;
+    height: 300px;
+    background-color: #584CEA;
+    border-radius: 10px;
+
+}
+#main-ads-part .part-one,.part-two,.part-three{
+text-align: right;
+}
+.part-three{
+    width: 100%;
+    height: 240px;
+     margin-top: 20px;
+     border-radius: 10px;
+    background-color: #584CEA;
 }
